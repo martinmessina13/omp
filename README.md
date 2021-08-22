@@ -1,6 +1,6 @@
 # Orthogonal Matching Pursuit
 
-Python version of the Orthogonal Matching Pursuit algorithm by Amir Adler, Valentin Emiya, Maria Jafari, Michael Elad, Rémi Gribonval, et al. (“A constrained matching pursuit approach to audio declipping,” in
+Python implementation of the Orthogonal Matching Pursuit algorithm by Amir Adler, Valentin Emiya, Maria Jafari, Michael Elad, Rémi Gribonval, et al. (“A constrained matching pursuit approach to audio declipping,” in
 2011 IEEE International Conference on Acoustics, Speech and Signal
 Processing (ICASSP), May 2011, pp. 329–332.)
 
