@@ -5,3 +5,5 @@ Python implementation of the Orthogonal Matching Pursuit algorithm by Amir Adler
 Processing ICASSP, May 2011, pp. 329–332.).
 
 The algorithm uses the sparse representation SR framework along with Discrete Cosine Transform or Discrete Gabor Transform overcomplete dictionaries and solves a constrained least-squares optimization problem to estimate clipped, degraded or missing samples in audio signals.
+
+omp.py contains the code for the algorithm, with comments explaining each line, and demo.ipynb presents a demonstration.
