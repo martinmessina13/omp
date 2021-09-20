@@ -7,7 +7,7 @@ from qpsolvers import solve_ls
 def OMP_C(y_r, M_r, M_mp, M_mn, D, K_omp, epsilon_omp, CLIP_LEVEL, /, mode, verbose):
     '''
     OMP_C
-    Orthogonal Matching Pursuit (OMP) declipping algorithm.
+    Orthogonal Matching Pursuit (OMP) algorithm.
     Returns the sparsest representation of a given vector, provided a DCT dictionary.
     
     Parameters
@@ -153,7 +153,7 @@ def OMP_C(y_r, M_r, M_mp, M_mn, D, K_omp, epsilon_omp, CLIP_LEVEL, /, mode, verb
 def OMP_G(y_r, I_r, M_r, M_mp, M_mn, D, K_omp, epsilon_omp, CLIP_LEVEL, /, mode, verbose):
     '''
     OMP_G
-    Orthogonal Matching Pursuit (OMP) declipping algorithm.
+    Orthogonal Matching Pursuit (OMP) algorithm.
     Returns the sparsest representation of a given vector, provided a Gabor dictionary.
     
     Parameters
